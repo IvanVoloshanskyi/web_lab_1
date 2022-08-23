@@ -1,0 +1,89 @@
+.third-page {
+    margin: 146px 0 0 0;
+    height: 684px;
+
+}
+
+.third-page-content {
+    margin-left: 245px;
+    margin-right: 245px;
+}
+
+.third-class-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.third-class-header-text {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.view-all a {
+    color: #FB8F1D;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+}
+.card-group{
+
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    margin-right: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.card:last-child{
+    margin-right: 0;
+}
+.card-read-more:first-child{
+
+}
+
+.card-img img {
+
+    border-radius: 20px 20px 0 0;
+
+    /*width: 200px ;*/
+    height: 200px;
+}
+
+.card-text {
+    margin-top: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.card-main-text {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.card-secondary-text {
+    margin-top: 13px;
+    color: #7D7987;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.card-read-more p {
+    margin-top: 23px;
+    font-family: 'Inter', sans-serif;
+    color: #FB8F1D;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+
+}

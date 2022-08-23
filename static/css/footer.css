@@ -1,0 +1,40 @@
+.main-footer {
+    height: 195px;
+    background-color: #F8F8F8;
+
+}
+
+.footer-content {
+    margin: 31px 191px 0 191px;
+    padding-top: 31px;
+
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-info.text {
+
+    color: #848484;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+
+
+}
+
+.footer-soc-net {
+    margin-top: 33px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.footer-soc-net img {
+    margin-right: 35px;
+
+}

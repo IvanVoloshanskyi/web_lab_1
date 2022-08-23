@@ -1,0 +1,47 @@
+.first-page-content {
+    margin: 150px 197px 0 197px;
+
+}
+
+.first-page-info {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+
+}
+.information{
+    width: 481px;
+    height: 100px;
+}
+.info.title {
+    color: #000000;
+
+    mix-blend-mode: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+    /*position: absolute;*/
+    /*display: unset;*/
+}
+
+.info.text {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 20px;
+    display: unset;
+
+
+    color: #7D7987;
+
+    mix-blend-mode: normal;
+}
+.first-page-download{
+    display: block;
+    margin-top: 33px;
+}
+.first-page-img img{
+    margin: 0 -120px 0 0;
+}

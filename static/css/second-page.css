@@ -1,0 +1,90 @@
+.second-page {
+    background-color: #F8F8F8;
+    height: 650px;
+    margin-top: 80px;
+}
+
+.second-page-content {
+    /*padding-top: ;*/
+    margin: 0 281px 0 281px;
+
+}
+
+.second-page-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.second-page-title {
+
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 50px;
+    color: #000000;
+}
+
+.second-page-rating img {
+    margin-top: 75px;
+    margin-right: 18px;
+}
+
+.second-page-rating img:last-child {
+    margin-right: 0;
+}
+
+.second-page-text.description {
+    padding-top: 24px;
+    font-family: 'Mulish', sans-serif;
+    width: 450px;
+    height: 144px;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+.second-page-info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+/*.second-page-author {*/
+/*    line-height: 20px;*/
+/*    justify-content: normal;*/
+/*    display: flex;*/
+/*}*/
+
+.second-page-author {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.second-page-author.name {
+    padding-top: 40px;
+    font-family: 'Inter', sans-serif;
+    width: 183px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.second-page-author.work {
+    padding-top: 5px;
+    width: 124px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+
+
+
+.second-page-author-photo img {
+    border-radius: 12px 12px 12px 12px;
+    margin-left: 184px;
+    margin-top: 70px;
+
+}
+

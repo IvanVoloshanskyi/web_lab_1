@@ -1,0 +1,41 @@
+.navbar {
+    justify-content: space-between;
+    display: flex;
+    margin: 57px 197px 0 197px;
+    align-items: center;
+}
+
+a.nav-item {
+    margin: 0 34px 0 0;
+    font-family: 'Inter', sans-serif;
+    color: #B8BECD;
+    font-size: 16px;
+
+
+}
+
+a.nav-item:first-child {
+    color: #202336;
+    font-weight: 500;
+    margin-right: 35px;
+}
+a.nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav-icon img {
+    padding-top: 0;
+
+}
+
+.buttons {
+
+}
+
+.nav-button.outline {
+    background: transparent;
+    color: #FB8F1D;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    margin-right: 18px;
+}
