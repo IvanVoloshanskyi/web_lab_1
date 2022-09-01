@@ -1,6 +1,22 @@
+/*GLOBAL STYLES*/
+@import "large-monitors.css";
 @import "global.css";
+
+/*---------------*/
+/*PAGES*/
 @import "first-page.css";
-@import "navbar.css";
 @import "second-page.css";
 @import "third-page.css";
+/*---------------*/
+
+/*NAVBAR*/
+@import "navbar.css";
+/*---------------*/
+
+/*FOOTER*/
 @import "footer.css";
+/*---------------*/
+
+/*ANIMATIONS*/
+@import "animations.css";
+/*---------------*/
