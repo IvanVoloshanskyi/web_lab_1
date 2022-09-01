@@ -1,8 +1,17 @@
+/*$desktop:1200px;*/
+/*$laptop:1024px;*/
+/*$tablet:767px;*/
+/*$phone:480px;*/
+
+
 a {
     text-decoration: none;
     color: black;
 }
-
+body{
+    text-align: center;
+    margin: 0;
+}
 button {
     background: #FB8F1D;
     border-radius: 8px;
