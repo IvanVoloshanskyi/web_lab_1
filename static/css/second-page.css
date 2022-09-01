@@ -13,7 +13,7 @@
 .second-page-text {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .second-page-title {
@@ -80,11 +80,70 @@
 }
 
 
-
 .second-page-author-photo img {
     border-radius: 12px 12px 12px 12px;
-    margin-left: 184px;
+    margin-left: 125px;
     margin-top: 70px;
 
+}
+
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+    .second-page {
+
+    }
+
+    .second-page-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .second-page-text{
+        align-items: center;
+    }
+    .second-page-author{
+        align-items: center;
+    }
+    .second-page-author-photo {
+        display: none;
+    }
+
+    /*.first-page-img{*/
+    /*    display: none;*/
+    /*}*/
+    /*.first-page-download{*/
+    /*    !*margin-left: 100px;*!*/
+    /*    margin: 33px auto;*/
+    /*}*/
+}
+
+@media screen and (max-width: 767px) and (min-width: 480px) {
+    .second-page-content {
+        margin: 0 0 0 0;
+
+    }
+
+    .second-page-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .second-page-text {
+        align-items: center;
+    }
+    .second-page-text.description{
+        align-items: center;
+        display: flex;
+    }
+    .second-page-author {
+        align-items: center;
+    }
+
+    .second-page-author-photo {
+        display: none;
+    }
 }
 
