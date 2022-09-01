@@ -1,12 +1,11 @@
 .third-page {
-    margin: 146px 0 0 0;
-    height: 684px;
+    margin: 146px 100px 0 50px;
+    height: 100%;
 
 }
 
 .third-page-content {
-    margin-left: 245px;
-    margin-right: 245px;
+    text-align: center;
 }
 
 .third-class-header {
@@ -27,21 +26,36 @@
     font-weight: 600;
     font-size: 17px;
 }
-.card-group{
+
+.card-group {
 
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
+
+.card-first-col {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-second-col {
+    display: flex;
+    flex-direction: row;
+}
+
 .card {
     margin-right: 20px;
     width: 300px;
     display: flex;
     flex-direction: column;
 }
-.card:last-child{
+
+.card:last-child {
     margin-right: 0;
 }
-.card-read-more:first-child{
+
+.card-read-more:first-child {
 
 }
 
@@ -86,4 +100,109 @@
     font-size: 15px;
     line-height: 28px;
 
+}
+.card-read-more:hover p{
+    font-size: 18px;
+}
+.view-all:hover a{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+    .third-page {
+        text-align: center;
+    }
+
+    .third-page-content {
+
+    }
+
+    .card-group {
+        justify-content: flex-end;
+    }
+
+    .card-first-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-second-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-main-text {
+        font-size: 20px;
+    }
+
+    .card-secondary-text {
+        font-size: 15px;
+    }
+
+    .card-read-more {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .card-img {
+
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 480px) {
+    .third-page {
+        margin: 0 0 0 0;
+    }
+
+    .third-class-header {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+
+    }
+
+
+    .third-page-content {
+
+    }
+
+    .card-group {
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+    .card{
+        margin-right: 0;
+    }
+    .card-first-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-second-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-main-text {
+        font-size: 17px;
+    }
+
+    .card-secondary-text {
+        font-size: 15px;
+    }
+
+    .card-read-more {
+        font-size: 15px;
+    }
+
+    .card-img img {
+
+        height: 261px;
+        /*width: 261px;*/
+
+    }
 }
