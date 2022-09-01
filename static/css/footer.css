@@ -38,3 +38,30 @@
     margin-right: 35px;
 
 }
+img.youtube_logo{
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+    .footer-info img{
+        display: none;
+    }
+    .footer-info{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 480px) {
+    .footer-content{
+        margin: 0 0 0 0;
+    }
+    .footer-info img{
+        display: none;
+    }
+    .footer-info{
+        flex-direction: column;
+    }
+    .footer-info.text{
+        align-items: inherit;
+    }
+}
