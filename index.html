@@ -5,156 +5,168 @@
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-<nav class="navbar">
-    <div class="nav-items">
-        <a href="" class="nav-item">Home</a>
-        <a href="" class="nav-item">Destinations</a>
-        <a href="" class="nav-item">About</a>
-        <a href="" class="nav-item">Partner</a>
-    </div>
-    <div class="nav-icon">
-        <img src="static/img/logo.svg" alt="">
-    </div>
-    <div class="buttons">
-        <button class="nav-button outline">Login</button>
-        <button class="nav-button">Register</button>
-    </div>
-</nav>
-<div class="first-page-content">
-    <div class="first-page">
-        <div class="first-page-info">
-            <div class="information">
-                <p class="info title">Guides by Thousand
-                    Sunny
-                </p>
-                <p class="info text">Packed with tips and advice from our on-the-ground experts, our city guides app
-                    (iOS
-                    and Android) is the
-                    ultimate
-                    resource before and during a trip.</p>
-                <button class="first-page-download">Download</button>
-
+<main>
+    <nav class="nav-content">
+        <div class="navbar">
+            <div class="nav-hamburger" onclick="toggleMenu()">
+                <img src="static/img/hamburger_icon.png" alt="menu-icon">
             </div>
-
-            <div class="first-page-img">
-                <img src="static/img/Thousand-03.svg" alt="">
+            <div id="nav-links" class="nav-items">
+                <a href="" class="nav-item">Home</a>
+                <a href="" class="nav-item">Destinations</a>
+                <a href="" class="nav-item">About</a>
+                <a href="" class="nav-item">Partner</a>
+            </div>
+            <div class="nav-icon">
+                <img src="static/img/logo.svg" alt="">
+            </div>
+            <div class="buttons">
+                <button class="nav-button outline">Login</button>
+                <button class="nav-button">Register</button>
             </div>
         </div>
-
-
-    </div>
-</div>
-<div class="second-page">
-    <div class="second-page-content">
-        <div class="second-page-info">
-            <div class="second-page-text">
-                <div class="second-page-title">
-                    <p>Testimonials</p>
-                </div>
-                <div class="second-page-rating">
-                    <img src="static/img/Vector.svg" alt="">
-                    <img src="static/img/Vector.svg" alt="">
-                    <img src="static/img/Vector.svg" alt="">
-                    <img src="static/img/Vector.svg" alt="">
-                    <img src="static/img/Vector.svg" alt="">
-                </div>
-                <div class="second-page-text description">
-                    “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis
-                    quis
-                    purus. Morbi blandit sit amet turpis nec”
-                </div>
-                <div class="second-page-author">
-                    <div class="second-page-author name">Edward Newgate</div>
-                    <div class="second-page-author work">Founder Circle</div>
+    </nav>
+    <div class="first-page-content">
+        <div class="first-page">
+            <div class="first-page-info">
+                <div class="information">
+                    <p class="info title">Guides by Thousand
+                        Sunny
+                    </p>
+                    <p class="info text">Packed with tips and advice from our on-the-ground experts, our city guides app
+                        (iOS
+                        and Android) is the
+                        ultimate
+                        resource before and during a trip.</p>
+                    <button class="first-page-download">Download</button>
 
                 </div>
-            </div>
-            <div class="second-page-author-photo">
-                <img src="static/img/image%206.svg" alt="">
-            </div>
-        </div>
 
-    </div>
-</div>
-<div class="third-page">
-    <div class="third-page-content">
-        <div class="third-class-header">
-            <div class="third-class-header-text">
-                <p>Trending stories</p>
-            </div>
-            <div class="view-all">
-                <a href="#">View all ></a>
-            </div>
-        </div>
-        <div class="card-group">
-            <div class="card">
-                <div class="card-img"><img src="static/img/image%2012.svg" alt=""></div>
-                <div class="card-text">
-                    <div class="card-main-text"><p>The many benefits of
-                        taking a healing holiday</p></div>
-                    <div class="card-secondary-text"><p>‘Helaing holidays’ are on the rise
-                        tohelp maximise your health and happines...</p></div>
-                    <div class="card-read-more"><a href="#"><p>Read more</p></a></div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img"><img src="static/img/image%2013.svg" alt=""></div>
-                <div class="card-text">
-                    <div class="card-main-text"><p>The best Kyoto restaurant
-                        to try Japanese food</p></div>
-                    <div class="card-secondary-text"><p>From tofu to teahouses, here’s our guide to Kyoto’s best
-                        restaurants
-                        to visit...</p></div>
-                    <div class="card-read-more"><a href="#"><p>Read more</p></a></div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img"><img src="static/img/image%2014.svg" alt=""></div>
-                <div class="card-text">
-                    <div class="card-main-text"><p>Skip Chichen Itza and head
-                        to this remote Yucatan</p></div>
-                    <div class="card-secondary-text"><p>It’s remote and challenging to get,
-                        but braving the jungle and exploring
-                        these ruins without the...</p></div>
-                    <div class="card-read-more"><a href="#"><p>Read more</p></a></div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-img"><img src="static/img/image%2015.svg" alt=""></div>
-                <div class="card-text">
-                    <div class="card-main-text"><p>Surf’s up at these beginner
-                        spots around the world</p></div>
-                    <div class="card-secondary-text"><p>If learning to surf has in on your to-
-                        do list for a while, the good news
-                        is: it’s never too late...</p></div>
-                    <div class="card-read-more"><a href="#"><p>Read more</p></a></div>
+                <div class="first-page-img">
+                    <img src="static/img/Thousand-03.svg" alt="">
                 </div>
             </div>
 
 
         </div>
     </div>
-</div>
-<footer class="main-footer">
+    <div class="second-page">
+        <div class="second-page-content">
+            <div class="second-page-info">
+                <div class="second-page-text">
+                    <div class="second-page-title">
+                        <p>Testimonials</p>
+                    </div>
+                    <div class="second-page-rating">
+                        <img src="static/img/Vector.svg" alt="">
+                        <img src="static/img/Vector.svg" alt="">
+                        <img src="static/img/Vector.svg" alt="">
+                        <img src="static/img/Vector.svg" alt="">
+                        <img src="static/img/Vector.svg" alt="">
+                    </div>
+                    <div class="second-page-text description">
+                        “Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu,
+                        facilisis
+                        quis
+                        purus. Morbi blandit sit amet turpis nec”
+                    </div>
+                    <div class="second-page-author">
+                        <div class="second-page-author name">Edward Newgate</div>
+                        <div class="second-page-author work">Founder Circle</div>
 
-    <div class="footer-content">
-        <div class="footer-info">
-            <img src="static/img/logo.svg">
-            <p class="footer-info text">©2020 Thousand Sunny. All rights reserved</p>
+                    </div>
+                </div>
+                <div class="second-page-author-photo">
+                    <img src="static/img/image%206.svg" alt="">
+                </div>
+            </div>
 
-        </div>
-        <hr class="footer-hr">
-        <div class="footer-soc-net">
-            <a href=""><img src="static/img/twitter.svg" alt=""></a>
-            <a href=""><img src="static/img/facebook.svg" alt=""></a>
-            <a href=""><img src="static/img/insta.svg" alt=""></a>
-            <a href=""><img src="static/img/in_logo.svg" alt=""></a>
-            <a href=""><img src="static/img/youtube_logo.svg" alt=""></a>
         </div>
     </div>
+    <div class="third-page">
+        <div class="third-page-content">
+            <div class="third-class-header">
+                <div class="third-class-header-text">
+                    <p>Trending stories</p>
+                </div>
+                <div class="view-all">
+                    <a href="#">View all ></a>
+                </div>
+            </div>
+            <div class="card-group">
+                <div class="card-first-col">
+                    <div class="card">
+                        <div class="card-img"><img src="static/img/image%2012.svg" alt=""></div>
+                        <div class="card-text">
+                            <div class="card-main-text"><p>The many benefits of
+                                taking a healing holiday</p></div>
+                            <div class="card-secondary-text"><p>‘Helaing holidays’ are on the rise
+                                tohelp maximise your health and happines...</p></div>
+                            <div class="card-read-more"><a href="#"><p>Read more</p></a></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img src="static/img/image%2013.svg" alt=""></div>
+                        <div class="card-text">
+                            <div class="card-main-text"><p>The best Kyoto restaurant
+                                to try Japanese food</p></div>
+                            <div class="card-secondary-text"><p>From tofu to teahouses, here’s our guide to Kyoto’s best
+                                restaurants
+                                to visit...</p></div>
+                            <div class="card-read-more"><a href="#"><p>Read more</p></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-second-col">
+                    <div class="card">
+                        <div class="card-img"><img src="static/img/image%2014.svg" alt=""></div>
+                        <div class="card-text">
+                            <div class="card-main-text"><p>Skip Chichen Itza and head
+                                to this remote Yucatan</p></div>
+                            <div class="card-secondary-text"><p>It’s remote and challenging to get,
+                                but braving the jungle and exploring
+                                these ruins without the...</p></div>
+                            <div class="card-read-more"><a href="#"><p>Read more</p></a></div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img"><img src="static/img/image%2015.svg" alt=""></div>
+                        <div class="card-text">
+                            <div class="card-main-text"><p>Surf’s up at these beginner
+                                spots around the world</p></div>
+                            <div class="card-secondary-text"><p>If learning to surf has in on your to-
+                                do list for a while, the good news
+                                is: it’s never too late...</p></div>
+                            <div class="card-read-more"><a href="#"><p>Read more</p></a></div>
+                        </div>
+                    </div>
+                </div>
 
 
-</footer>
+            </div>
+        </div>
+    </div>
+    <footer class="main-footer">
 
+        <div class="footer-content">
+            <div class="footer-info">
+                <img src="static/img/logo.svg">
+                <p class="footer-info text">©2020 Thousand Sunny. All rights reserved</p>
+
+            </div>
+            <hr class="footer-hr">
+            <div class="footer-soc-net">
+                <a href=""><img src="static/img/twitter.svg" alt=""></a>
+                <a href=""><img src="static/img/facebook.svg" alt=""></a>
+                <a href=""><img src="static/img/insta.svg" alt=""></a>
+                <a href=""><img src="static/img/in_logo.svg" alt=""></a>
+                <a href=""><img src="static/img/youtube_logo.svg" alt="" class="youtube_logo"></a>
+            </div>
+        </div>
+
+
+    </footer>
+    <script src="static/js/main.js"></script>
+</main>
 </body>
 </html>
