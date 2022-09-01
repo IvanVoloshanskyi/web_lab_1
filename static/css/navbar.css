@@ -1,3 +1,17 @@
+.nav-content {
+
+}
+
+.nav-hamburger {
+    display: none;
+    width: 32px;
+    cursor: pointer;
+}
+
+.nav-hamburger > img {
+    max-width: 100%;
+}
+
 .navbar {
     justify-content: space-between;
     display: flex;
@@ -5,8 +19,13 @@
     align-items: center;
 }
 
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
 a.nav-item {
-    margin: 0 34px 0 0;
+    margin: 0 10% 0 0;
     font-family: 'Inter', sans-serif;
     color: #B8BECD;
     font-size: 16px;
@@ -16,10 +35,11 @@ a.nav-item {
 
 a.nav-item:first-child {
     color: #202336;
-    font-weight: 500;
-    margin-right: 35px;
+    font-weight: 700;
+    margin-right: 12%;
 }
-a.nav-item:last-child{
+
+a.nav-item:last-child {
     margin-right: 0;
 }
 
@@ -32,6 +52,18 @@ a.nav-item:last-child{
 
 }
 
+a.nav-item:hover {
+    color: black;
+}
+
+.nav-button:hover {
+    background-color: #f5a855;
+    color: #fff;
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+
+}
+
 .nav-button.outline {
     background: transparent;
     color: #FB8F1D;
@@ -39,3 +71,84 @@ a.nav-item:last-child{
     border-radius: 8px;
     margin-right: 18px;
 }
+
+.nav-button.outline:hover {
+    background: #f5a855;
+    border-radius: 8px;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .buttons {
+        display: block;
+    }
+
+    .nav-icon {
+        display: none;
+
+    }
+
+    .nav-content {
+        color: black;
+    }
+
+    .navbar {
+        height: 60px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+
+        background-color: #fff;
+        margin: 0 auto;
+
+    }
+
+    .nav-hamburger {
+        display: block;
+        margin-left: 50px;
+    }
+
+
+    .nav-items a {
+        font-size: 20px;
+        height: 100%;
+    }
+
+    .nav-items {
+        background-color: blanchedalmond;
+        position: fixed;
+        top: 55px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 0;
+        clip-path: circle(0 at top left);
+        transition: clip-path 0.9s ease-in;
+
+    }
+
+    .nav-items.open {
+        clip-path: circle(1200px at top left);
+    }
+
+    a.nav-items {
+        flex-direction: column;
+        height: 100%;
+
+    }
+
+    .nav-item {
+        margin-right: 0;
+        flex: 1;
+
+    }
+
+    a.nav-item {
+        /*margin-top: 50px;*/
+
+    }
+
+}
+
+
